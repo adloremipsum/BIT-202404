@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #b4c2dd;
+  font-family: Arial;
+}
+
+.nav {
+  background-color: #d1cdc7;
+  padding: 15px 10px;
+  overflow: auto;
+}
+
+.nav img {
+  float: left;
+  height: 60px;
+}
+
+.nav ul {
+  float: right;
+  list-style: none;
+}
+
+.nav ul li {
+  float: left;
+  margin: 0 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#portada {
+  background-color: black;
+  background-image: url(../images/books.jpg);
+  background-size: cover;
+}
+
+#portada h1 {
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#biografia {
+  padding: 50px 15px;
+  text-align: center;
+}
+
+#categorias {
+  text-align: center;
+}
+
+#categorias #botonera {
+  margin: 0 auto;
+  background-color: green;
+}
+
+#categorias ul {
+  display: inline-block;
+  margin: 0 auto;
+  list-style: none;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#categorias ul li {
+  float: left;
+}
+#categorias ul li a {
+}
+
+#novelas h2,
+#cuentos h2,
+#no-ficcion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#novelas table,
+#cuentos table,
+#no-ficcion table {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.3);
+  table-layout: fixed;
+}
+
+#novelas table thead,
+#cuentos table thead,
+#no-ficcion table thead {
+  background-color: white;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+#novelas table thead td,
+#cuentos table thead td,
+#no-ficcion table thead td {
+  padding: 10px;
+}
+
+#novelas table tr td,
+#cuentos table tr td,
+#no-ficcion table tr td {
+  padding: 10px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}

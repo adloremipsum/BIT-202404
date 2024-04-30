@@ -1,0 +1,13 @@
+body {
+}
+
+.resaltado {
+  font-weight: bold;
+  color: red;
+  background-color: darksalmon;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}

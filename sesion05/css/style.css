@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lateef:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* A TODOS LOS ELEMENTOS EXISTENTES EN EL HTML... */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: pink;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lateef", serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: auto;
+  background-color: red;
+}
+
+header h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+  float: left;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+table td#left {
+  width: 60%;
+}
+
+table td#right {
+  width: 40%;
+  vertical-align: top;
+}
+
+table td h2 {
+  margin: 30px 0 40px;
+}
+
+table td h3 {
+  margin: 15px 0;
+}
+
+table td p {
+  margin-bottom: 10px;
+}
